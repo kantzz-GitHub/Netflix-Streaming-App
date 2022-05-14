@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		84072157282F75D000E10E06 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84072156282F75D000E10E06 /* SearchResultsViewController.swift */; };
 		8407215B282F856400E10E06 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407215A282F856400E10E06 /* YoutubeSearchResponse.swift */; };
+		8407215D282F89EA00E10E06 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407215C282F89EA00E10E06 /* TitlePreviewViewController.swift */; };
+		8407215F282F947C00E10E06 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407215E282F947C00E10E06 /* TitlePreviewViewModel.swift */; };
 		84BC0830282D501B00B08106 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC082F282D501B00B08106 /* AppDelegate.swift */; };
 		84BC0832282D501B00B08106 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC0831282D501B00B08106 /* SceneDelegate.swift */; };
 		84BC0834282D501B00B08106 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC0833282D501B00B08106 /* MainTabBarViewController.swift */; };
@@ -33,6 +35,8 @@
 /* Begin PBXFileReference section */
 		84072156282F75D000E10E06 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		8407215A282F856400E10E06 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		8407215C282F89EA00E10E06 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		8407215E282F947C00E10E06 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		84BC082C282D501B00B08106 /* Netflix Streaming App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Streaming App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BC082F282D501B00B08106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BC0831282D501B00B08106 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				84BC0844282D5B3C00B08106 /* HomeViewController.swift */,
+				84BC0833282D501B00B08106 /* MainTabBarViewController.swift */,
 				84BC0846282D5B9A00B08106 /* UpcomingViewController.swift */,
 				84BC0848282D5BC600B08106 /* SearchViewController.swift */,
 				84BC084A282D5C0300B08106 /* DownloadsViewController.swift */,
@@ -82,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				84072156282F75D000E10E06 /* SearchResultsViewController.swift */,
+				8407215C282F89EA00E10E06 /* TitlePreviewViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -111,9 +117,6 @@
 				84BC084D282D653500B08106 /* Views */,
 				84BC084E282D653D00B08106 /* ViewModels */,
 				84BC0843282D5B0700B08106 /* Controllers */,
-				84BC082F282D501B00B08106 /* AppDelegate.swift */,
-				84BC0831282D501B00B08106 /* SceneDelegate.swift */,
-				84BC0833282D501B00B08106 /* MainTabBarViewController.swift */,
 				84BC0838282D501E00B08106 /* Assets.xcassets */,
 				84BC083A282D501E00B08106 /* LaunchScreen.storyboard */,
 				84BC083D282D501E00B08106 /* Info.plist */,
@@ -154,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				84EEDFA4282EB64B000C83C8 /* TitleViewModel.swift */,
+				8407215E282F947C00E10E06 /* TitlePreviewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -161,6 +165,8 @@
 		84BC084F282D656C00B08106 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84BC082F282D501B00B08106 /* AppDelegate.swift */,
+				84BC0831282D501B00B08106 /* SceneDelegate.swift */,
 				84EEDF97282E5065000C83C8 /* Extensions.swift */,
 			);
 			path = Resources;
@@ -264,7 +270,9 @@
 				84EEDF98282E5065000C83C8 /* Extensions.swift in Sources */,
 				8407215B282F856400E10E06 /* YoutubeSearchResponse.swift in Sources */,
 				84BC0832282D501B00B08106 /* SceneDelegate.swift in Sources */,
+				8407215F282F947C00E10E06 /* TitlePreviewViewModel.swift in Sources */,
 				84BC0847282D5B9A00B08106 /* UpcomingViewController.swift in Sources */,
+				8407215D282F89EA00E10E06 /* TitlePreviewViewController.swift in Sources */,
 				84EEDF96282E4B93000C83C8 /* Title.swift in Sources */,
 				84BC0845282D5B3C00B08106 /* HomeViewController.swift in Sources */,
 				84EEDFA5282EB64B000C83C8 /* TitleViewModel.swift in Sources */,
