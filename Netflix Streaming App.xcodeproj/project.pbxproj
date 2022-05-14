@@ -75,9 +75,9 @@
 			isa = PBXGroup;
 			children = (
 				84BC0844282D5B3C00B08106 /* HomeViewController.swift */,
-				84BC0833282D501B00B08106 /* MainTabBarViewController.swift */,
 				84BC0846282D5B9A00B08106 /* UpcomingViewController.swift */,
 				84BC0848282D5BC600B08106 /* SearchViewController.swift */,
+				84BC0833282D501B00B08106 /* MainTabBarViewController.swift */,
 				84BC084A282D5C0300B08106 /* DownloadsViewController.swift */,
 			);
 			path = Core;
