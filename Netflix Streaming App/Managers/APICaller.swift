@@ -53,7 +53,7 @@ class APICaller {
             do{
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 completion(.success(results.results))
-
+                
             }
             catch {
                 completion(.failure(APIError.failedTogetData))
@@ -74,7 +74,7 @@ class APICaller {
             do{
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 completion(.success(results.results))
-
+                
             } catch {
                 completion(.failure(APIError.failedTogetData))
             }
@@ -95,7 +95,7 @@ class APICaller {
             do{
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 completion(.success(results.results))
-
+                
             } catch {
                 completion(.failure(APIError.failedTogetData))
             }
@@ -117,7 +117,7 @@ class APICaller {
             do{
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 completion(.success(results.results))
-
+                
             } catch {
                 completion(.failure(APIError.failedTogetData))
             }
@@ -142,7 +142,7 @@ class APICaller {
             do{
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 completion(.success(results.results))
-
+                
             } catch {
                 completion(.failure(APIError.failedTogetData))
             }
@@ -156,7 +156,7 @@ class APICaller {
     func search(with query: String, completion: @escaping (Result<[Title], Error>) -> Void){
         
         guard let query = query.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else {return}
-         
+        
         guard let url = URL(string: "\(Constants.baseURL)/3/search/movie?api_key=\(Constants.API_KEY)&query=\(query)") else {
             return
         }
@@ -169,7 +169,7 @@ class APICaller {
             do{
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
                 completion(.success(results.results))
-
+                
             } catch {
                 completion(.failure(APIError.failedTogetData))
             }

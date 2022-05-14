@@ -12,16 +12,16 @@ class DownloadsViewController: UIViewController {
     private var titles: [TitleItem] = [TitleItem]()
     
     private var downloadedTable:UITableView = {
-       
+        
         let table = UITableView()
         table.register(TitleTableViewCell.self, forCellReuseIdentifier: TitleTableViewCell.identifier)
         return table
         
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         view.backgroundColor = .systemBackground
         
         title = "Downloads"
@@ -37,7 +37,7 @@ class DownloadsViewController: UIViewController {
         }
     }
     
-
+    
     private func fetchLocalStorageForDownload(){
         DataPersistenceManager.shared.fetchingTitlesFromDataBase { [weak self] result in
             switch result{
@@ -54,7 +54,7 @@ class DownloadsViewController: UIViewController {
         super.viewDidLayoutSubviews()
         downloadedTable.frame = view.bounds
     }
-
+    
 }
 
 extension DownloadsViewController: UITableViewDelegate, UITableViewDataSource{

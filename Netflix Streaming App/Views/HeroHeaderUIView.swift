@@ -21,7 +21,7 @@ class HeroHeaderUIView: UIView {
     }()
     
     private let playButton: UIButton = {
-       
+        
         let button = UIButton()
         button.setTitle("Play", for: .normal)
         button.layer.borderColor = UIColor.white.cgColor
@@ -43,7 +43,7 @@ class HeroHeaderUIView: UIView {
         
     }()
     
-
+    
     private func addGradient(){
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = [
@@ -98,5 +98,5 @@ class HeroHeaderUIView: UIView {
     required init?(coder: NSCoder) {
         fatalError()
     }
-
+    
 }

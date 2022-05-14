@@ -12,7 +12,7 @@ protocol CollectionViewTableViewCellDelegate: AnyObject{
 }
 
 class CollectionViewTableViewCell: UITableViewCell {
-
+    
     static let identifier = "CollectionViewTableViewCell"
     
     weak var delegate: CollectionViewTableViewCellDelegate?
@@ -20,7 +20,7 @@ class CollectionViewTableViewCell: UITableViewCell {
     private var titles: [Title] = [Title]()
     
     private let collectionView: UICollectionView = {
-       
+        
         
         let layout = UICollectionViewFlowLayout()
         

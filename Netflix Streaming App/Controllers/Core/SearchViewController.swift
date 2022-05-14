@@ -13,7 +13,7 @@ class SearchViewController: UIViewController {
     
     
     private let discoverTable:UITableView = {
-       
+        
         let table = UITableView()
         table.register(TitleTableViewCell.self, forCellReuseIdentifier: TitleTableViewCell.identifier)
         return table
@@ -26,10 +26,10 @@ class SearchViewController: UIViewController {
         controller.searchBar.searchBarStyle = .minimal
         return controller
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         title = "Search"
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationController?.navigationItem.largeTitleDisplayMode = .always
@@ -66,13 +66,13 @@ class SearchViewController: UIViewController {
         }
     }
     
-
+    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         discoverTable.frame = view.bounds
     }
     
-
+    
 }
 
 

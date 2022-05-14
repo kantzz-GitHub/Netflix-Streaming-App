@@ -12,13 +12,13 @@ class UpcomingViewController: UIViewController {
     private var titles: [Title] = [Title]()
     
     private let upcomingTable:UITableView = {
-       
+        
         let table = UITableView()
         table.register(TitleTableViewCell.self, forCellReuseIdentifier: TitleTableViewCell.identifier)
         return table
         
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
@@ -39,7 +39,7 @@ class UpcomingViewController: UIViewController {
         super.viewDidLayoutSubviews()
         
         upcomingTable.frame = view.bounds
-        }
+    }
     
     private func fetchUpcoming(){
         APICaller.shared.getUpcomingMovies { [weak self] result in

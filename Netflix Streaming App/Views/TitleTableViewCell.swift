@@ -8,7 +8,7 @@
 import UIKit
 
 class TitleTableViewCell: UITableViewCell {
-
+    
     static let identifier = "TitleTableViewCell"
     
     
@@ -88,5 +88,5 @@ class TitleTableViewCell: UITableViewCell {
     required init?(coder: NSCoder){
         fatalError()
     }
-
+    
 }
