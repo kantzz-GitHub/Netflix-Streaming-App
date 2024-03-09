@@ -8,3 +8,5 @@ https://github.com/kantzz-GitHub/Netflix-Streaming-App/assets/87364161/16486316-
 https://github.com/kantzz-GitHub/Netflix-Streaming-App/assets/87364161/e17f3c12-a4a0-478f-b0bc-76807c2204cd
 
 ![Simulator Screenshot - iPhone 15 Pro - 2024-03-09 at 13 23 16](https://github.com/kantzz-GitHub/Netflix-Streaming-App/assets/87364161/cfe7a927-bd68-4475-9210-2d42099dee09)
+![Simulator Screenshot - iPhone 15 Pro - 2024-03-09 at 13 23 16](https://github.com/kantzz-GitHub/Netflix-Streaming-App/assets/87364161/8362b9cf-3aef-4f2c-9aa8-45f0ccc6f732)
+![Simulator Screenshot - iPhone 15 Pro - 2024-03-09 at 13 23 16](https://github.com/kantzz-GitHub/Netflix-Streaming-App/assets/87364161/39226897-0090-4412-91f0-647af1bbcb74)
