@@ -6,9 +6,11 @@ https://github.com/kantzz-GitHub/Netflix-Streaming-App/assets/87364161/16486316-
 
 
 In the second "Upcoming" screen, Users can vertically scroll through a list of 20 upcoming movies. 
+
 https://github.com/kantzz-GitHub/Netflix-Streaming-App/assets/87364161/e17f3c12-a4a0-478f-b0bc-76807c2204cd
 
 In the third "Search" screen Users search for a movie trailer, tap on one of the results and it will navigate to a trailer view.
+
 https://github.com/kantzz-GitHub/Netflix-Streaming-App/assets/87364161/d609e654-ba22-4510-a9e7-b899d9871113
 
 
